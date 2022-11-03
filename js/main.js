@@ -5,7 +5,7 @@ $(function() {
     // loader
     $.fakeLoader({
         spinner: "spinner4",
-        bgColor: "#021d38"
+        bgColor: "#355b59"
     });
 
    // navbar on scroll
