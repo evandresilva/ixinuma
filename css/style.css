@@ -207,7 +207,7 @@ p {
 
 /* haader title */
 .header-title {
-    background: linear-gradient(rgba(2, 29, 56, 0.84), rgba(2, 29, 56, 0.98)), url("../images/header.jpg");
+    background: linear-gradient(rgba(3, 28, 24, 0.7), rgba(3, 26, 28, 0.9)), url("../images/header.jpg");
     background-position-x: 0%, 0%;
     background-position-y: 0%, 0%;
     background-attachment: scroll, scroll;
@@ -403,13 +403,23 @@ p {
     padding: 100px 0 90px;
 }
 
+.bg-black {
+    background: #111 !important;
+}
+
 .services .content {
     background: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 30px;
     margin-bottom: 30px;
+    height: 450px;
     box-shadow: 0 12px 30px -15px rgba(0, 0, 0, 0.2);
+}
+.services .content li{
+    margin: 7px 0;
+    text-align: center;
+    
 }
 
 .services .content i {
@@ -892,7 +902,9 @@ footer ul li:last-child {
     .features .content:last-child {
         margin-bottom: 30px;
     }
-
+.services .col{
+    height: 100%;
+}
     .services .content {
         padding: 20px;
     }
